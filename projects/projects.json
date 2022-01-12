@@ -1,0 +1,38 @@
+{
+    "testproject.html": {
+        "name": "Tis is my project.",
+        "description": "This project is my project. It is my project. It is about my project. It is about my project. Because it is my project. Haha. Haha is my project.",
+        "image": "./testproject/one1.png",
+        "ximage1": "./testproject/two2.png",
+        "ximage2": "./testproject/three3.png",
+        "ximage3": "./testproject/four4.png",
+        "ximage4": "./testproject/five5.png",
+        "types": {
+            "discontinued": false,
+            "tool": true,
+            "game": false,
+            "resource": false,
+            "alpha": true,
+            "beta": false,
+            "opensource": true,
+            "online": false
+        },
+        "buttons": {
+            "button1": {
+                "enabled": true,
+                "url": "https://google.com/",
+                "text": "google.com"
+            },
+            "button2": {
+                "enabled": true,
+                "url": "https://github.com/",
+                "text": "github.com"
+            },
+            "button3": {
+                "enabled": true,
+                "url": "https://youtube.com/",
+                "text": "youtube.com"
+            }
+        }
+    }
+}
