@@ -55,16 +55,16 @@ fetch(myRequest)
     .then(function(data) {
 
         var path = window.location.pathname;
-        var page = path.split("/").pop();
+        var page = path.split("/").pop().split(".")[0];
+        console.log(page);
         project = data[page]
-        console.log(project.name)
         document.getElementById("projectname").innerText = project.name
-        document.getElementById(ids.image).src = project.image
-        document.getElementById(ids.image1).src = project.ximage1
-        document.getElementById(ids.image2).src = project.ximage2
-        document.getElementById(ids.image3).src = project.ximage3
-        document.getElementById(ids.image4).src = project.ximage4
-        document.getElementById(ids.description).firstElementChild.innerText = project.description
+        document.getElementById(ids.image).src = "./" + page + "/icon.png"
+        document.getElementById(ids.image1).src = "./" + page + "/image1.png"
+        document.getElementById(ids.image2).src = "./" + page + "/image2.png"
+        document.getElementById(ids.image3).src = "./" + page + "/image3.png"
+        document.getElementById(ids.image4).src = "./" + page + "/image4.png"
+        document.getElementById(ids.description).firstElementChild.innerHTML = project.description
         if (project.buttons.button1.enabled == true) {
             document.getElementById(ids.button1).innerText = project.buttons.button1.text
             document.getElementById(ids.button1).href = project.buttons.button1.url
