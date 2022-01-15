@@ -59,11 +59,11 @@ fetch(myRequest)
         console.log(page);
         project = data[page]
         document.getElementById("projectname").innerText = project.name
-        document.getElementById(ids.image).src = "./" + page + "/icon.png"
-        document.getElementById(ids.image1).src = "./" + page + "/image1.png"
-        document.getElementById(ids.image2).src = "./" + page + "/image2.png"
-        document.getElementById(ids.image3).src = "./" + page + "/image3.png"
-        document.getElementById(ids.image4).src = "./" + page + "/image4.png"
+        document.getElementById(ids.image).src = "./" + project.key + "/icon.png"
+        document.getElementById(ids.image1).src = "./" + project.key + "/image1.png"
+        document.getElementById(ids.image2).src = "./" + project.key + "/image2.png"
+        document.getElementById(ids.image3).src = "./" + project.key + "/image3.png"
+        document.getElementById(ids.image4).src = "./" + project.key + "/image4.png"
         document.getElementById(ids.description).firstElementChild.innerHTML = project.description
         if (project.buttons.button1.enabled == true) {
             document.getElementById(ids.button1).innerText = project.buttons.button1.text

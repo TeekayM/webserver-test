@@ -29,5 +29,36 @@
                 "text": "Repository"
             }
         }
+    },
+    "tulceasmp1": {
+        "name": "TulceaSMP 1",
+        "description": "TulceaSMP 1 was technically the second installment of the TulceaSMP series. Hosted by Teekay, (50% Aternos, 50% Dedicated Hosting). It takes place in a savanna biome, where all of the participants live.",
+        "types": {
+            "discontinued": false,
+            "tool": false,
+            "game": false,
+            "resource": true,
+            "alpha": false,
+            "beta": false,
+            "opensource": false,
+            "online": false
+        },
+        "buttons": {
+            "button1": {
+                "enabled": true,
+                "url": "https://github.com/TeekayM/server_tulceasmp1/archive/refs/heads/master.zip",
+                "text": "Download"
+            },
+            "button2": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            },
+            "button3": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            }
+        }
     }
 }
