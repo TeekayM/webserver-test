@@ -55,7 +55,11 @@ fetch(myRequest)
     .then(function(data) {
 
         var path = window.location.pathname;
-        var page = path.split("/").pop().split(".")[0];
+        console.log(path);
+        var _page = path.split("/").pop();
+        console.log(_page);
+        var __page = _page.split(".");
+        var page = __page[0];
         console.log(page);
         project = data[page]
         document.getElementById("projectname").innerText = project.name
