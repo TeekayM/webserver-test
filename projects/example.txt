@@ -122,5 +122,5 @@
     <script src="projectcode.js" type="text/javascript"></script>
     <script src="replacenames.js" type="text/javascript"></script>
 </scripts>
-CHANGELOL
+
 </html>

@@ -1,14 +1,10 @@
-/*
-
-Name : projectname
-Image : projectimage
-OtherImages : pi_#
-ProjectDescription: projectdescription
-project detai
-
-
+/*fetch('./body.txt')
+    .then(response => response.text())
+    .then(text => document.body.innerHTML = text)
+fetch('./head.txt')
+    .then(response => response.text())
+    .then(text => document.head.innerHTML = text)
 */
-
 var ids = {
     name: "projectname",
     image: "projectimage",
@@ -68,6 +64,7 @@ fetch(myRequest)
         document.getElementById(ids.image2).src = "./" + page + "/image2.png"
         document.getElementById(ids.image3).src = "./" + page + "/image3.png"
         document.getElementById(ids.image4).src = "./" + page + "/image4.png"
+        document.getElementById("bkgimage").src = "./" + page + "/background.png"
         document.getElementById(ids.description).firstElementChild.innerHTML = project.description
         if (project.buttons.button1.enabled == true) {
             document.getElementById(ids.button1).innerText = project.buttons.button1.text

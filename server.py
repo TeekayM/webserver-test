@@ -1,7 +1,7 @@
 try:
     from http import server # Python 3
 except ImportError:
-    import SimpleHTTPServer as server # Python 2
+    print("Could not import")
 
 class MyHTTPRequestHandler(server.SimpleHTTPRequestHandler):
     def end_headers(self):
