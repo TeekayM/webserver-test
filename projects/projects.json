@@ -60,5 +60,36 @@
                 "text": ""
             }
         }
+    },
+    "tulceammp1": {
+        "name": "TulceaMMP 1",
+        "description": "TulceaMMP 1 is the first modded TulceaSMP. It isn't viewed as <i>that good</i> since there was a lot of fighting between the members of the server. But, it may serve as a good memory for some.",
+        "types": {
+            "discontinued": false,
+            "tool": false,
+            "game": false,
+            "resource": true,
+            "alpha": false,
+            "beta": false,
+            "opensource": false,
+            "online": false
+        },
+        "buttons": {
+            "button1": {
+                "enabled": true,
+                "url": "https://github.com/TeekayM/server_tulceammp1/archive/refs/heads/master.zip",
+                "text": "Download"
+            },
+            "button2": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            },
+            "button3": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            }
+        }
     }
 }
