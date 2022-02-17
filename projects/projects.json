@@ -9,7 +9,7 @@
             "resource": false,
             "alpha": false,
             "beta": true,
-            "opensource": true,
+            "open-source": true,
             "online": false
         },
         "buttons": {
@@ -30,6 +30,37 @@
             }
         }
     },
+    "tulceasmp0": {
+        "name": "TulceaSMP 0",
+        "description": "TulceaSMP 0 was <i>not</i> a TulceaSMP at first. It stated with only Teekay, David, and Bec, calling it Survival MED. After that, the server <i>did</i> gather more players, but its name was never changed.",
+        "types": {
+            "discontinued": false,
+            "tool": false,
+            "game": false,
+            "resource": true,
+            "alpha": false,
+            "beta": false,
+            "open-source": false,
+            "online": false
+        },
+        "buttons": {
+            "button1": {
+                "enabled": true,
+                "url": "https://github.com/TeekayM/server_tulceasmp0/archive/refs/heads/master.zip",
+                "text": "Download"
+            },
+            "button2": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            },
+            "button3": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            }
+        }
+    },
     "tulceasmp1": {
         "name": "TulceaSMP 1",
         "description": "TulceaSMP 1 was technically the second installment of the TulceaSMP series. Hosted by Teekay, (50% Aternos, 50% Dedicated Hosting). It takes place in a savanna biome, where all of the participants live.",
@@ -40,13 +71,106 @@
             "resource": true,
             "alpha": false,
             "beta": false,
-            "opensource": false,
+            "open-source": false,
             "online": false
         },
         "buttons": {
             "button1": {
                 "enabled": true,
                 "url": "https://github.com/TeekayM/server_tulceasmp1/archive/refs/heads/master.zip",
+                "text": "Download"
+            },
+            "button2": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            },
+            "button3": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            }
+        }
+    },
+    "tulceasmp2": {
+        "name": "TulceaSMP 2",
+        "description": "Tulcea SMP 2 is special, since it was hosted in the winter; and that's where the christmas vibe comes from it. This is by far the best TulceaSMP, according to most of the players.",
+        "types": {
+            "discontinued": false,
+            "tool": false,
+            "game": false,
+            "resource": true,
+            "alpha": false,
+            "beta": false,
+            "open-source": false,
+            "online": false
+        },
+        "buttons": {
+            "button1": {
+                "enabled": true,
+                "url": "https://github.com/TeekayM/server_tulceasmp2/archive/refs/heads/master.zip",
+                "text": "Download"
+            },
+            "button2": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            },
+            "button3": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            }
+        }
+    },
+    "tulceasmp3": {
+        "name": "TulceaSMP 3",
+        "description": "TulceaSMP 3 was the first SMP hosted by Oracolul70. At the time, Teekay and Oracolul70 had a huge fight, and so he \"<i>stole</i>\" the TulceaSMP name and made TulceaSMP 3. Around 5 days after that, they made up, and much more players joined.",
+        "types": {
+            "discontinued": false,
+            "tool": false,
+            "game": false,
+            "resource": true,
+            "alpha": false,
+            "beta": false,
+            "open-source": false,
+            "online": false
+        },
+        "buttons": {
+            "button1": {
+                "enabled": true,
+                "url": "https://github.com/TeekayM/server_tulceasmp3/archive/refs/heads/master.zip",
+                "text": "Download"
+            },
+            "button2": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            },
+            "button3": {
+                "enabled": false,
+                "url": "",
+                "text": ""
+            }
+        }
+    },
+    "tulceasmp4": {
+        "name": "TulceaSMP 4",
+        "description": "TulceaSMP 4 is the first TulceaSMP that actually used world protection to some extent. People were, again, divided into teams and scattered across the world. Not much to say about this one, really.",
+        "types": {
+            "discontinued": false,
+            "tool": false,
+            "game": false,
+            "resource": true,
+            "alpha": false,
+            "beta": false,
+            "open-source": false,
+            "online": false
+        },
+        "buttons": {
+            "button1": {
+                "enabled": true,
+                "url": "https://github.com/TeekayM/server_tulceasmp4/archive/refs/heads/master.zip",
                 "text": "Download"
             },
             "button2": {
@@ -71,7 +195,7 @@
             "resource": true,
             "alpha": false,
             "beta": false,
-            "opensource": false,
+            "open-source": false,
             "online": false
         },
         "buttons": {

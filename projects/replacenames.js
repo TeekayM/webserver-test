@@ -18,7 +18,7 @@ var ids = {
     projectdetalil_game: "pd_game",
     projectdetalil_alpha: "pd_alpha",
     projectdetalil_beta: "pd_beta",
-    projectdetalil_opensource: "pd_opensource",
+    projectdetalil_opensource: "pd_open-source",
     projectdetalil_online: "pd_online",
     projectdetalil_discontinued_image: "pd_discontinued_img",
     projectdetalil_tool_image: "pd_tool_img",
